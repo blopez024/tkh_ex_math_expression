@@ -7,7 +7,13 @@ let operations = {
 	"*": (a, b) => a * b,
 	"**": (a, b) => a ** b,
 	"%": (a, b) => a % b,
-	"invalid": (a, b) => 'Division by 0 is undefined'
+	"invalid": (a, b) => 'Division by 0 is undefined',
+
+	">": (a, b) => a > b,
+	"<": (a, b) => a < b,
+	"!=": (a, b) => a != b,
+	"==": (a, b) => a == b,
+	"===": (a, b) => a === b
 };
 
 // Create the behavior behind the calculator
