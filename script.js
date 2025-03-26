@@ -33,7 +33,6 @@ function calculate() {
 		// otherwise, result assign itself to be whatever the two nums evaluate to with the selected operator
 
 		if ((operator == "/" || operator == "%") && num2 == 0) {
-			console.log('here')
 			operator = 'invalid';
 		}
 
